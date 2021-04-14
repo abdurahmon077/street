@@ -1,0 +1,211 @@
+/* @media (max-width: 1440px) {} */
+/* @media (max-width: 1366px) {} */
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+/* @media (max-width: 1140px) {} */
+@media (max-width: 1024px) {
+    .card {
+        margin: 5px;
+    }
+}
+@media (max-width: 992px) {
+    .card {
+        row-gap: 7px;
+    }
+}
+@media (max-width: 768px) {
+    .section__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        'a1 a2'
+        'a3 a4'
+        'a5 a6'
+        'a7 a8';
+    }
+}
+/* @media (max-width: 736px) {} */
+/* @media (max-width: 734px) {} */
+@media (max-width: 684px) {
+    .header__nav {
+        padding: 5px;
+    }
+    .header__nav_menu {
+        display: none;
+    }
+    .nav__menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .nav__line {
+        width: 100%;
+        height: 2px;
+        background: #fff; 
+    }
+    .nav__line::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 10px;
+        background: #fff; 
+    }
+    .nav__line::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 10px;
+        background: #fff; 
+    }
+}
+@media (max-width: 667px) {
+    .footer__nav_list {
+        height: 270px;
+    }
+}
+@media (max-width: 576px) {
+
+    .header__content_title {
+        font-size: 50px;
+    }
+    .header__content_txt {
+        font-size: 14px; 
+    }
+    .header__content_btns_price {
+        width: 230px;
+        height: 85px;
+    }
+    .header__content_btns_btn {
+        width: 185px;  
+    }
+    .footer__title {
+        font-size: 32px;
+    }
+}
+@media (max-width: 414px) {
+    .section__nav_list_item_link {
+        padding: 17px;
+        font-size: 14px;
+    }
+    .section__nav {
+        top: 61px;
+    }
+    .section__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        'a1'
+        'a2'
+        'a3' 
+        'a4'
+        'a5' 
+        'a6'
+        'a7' 
+        'a8';
+    }
+    .ads__container_nav_menu {
+        display: none;
+    }
+    .ads__menu {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ads_menu_link {
+        display: block;
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .header__content_btns_btn {
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .header__content_btns_price {
+        font-size: 42px;
+        width: 176px;
+        height: 70px;
+    }
+    .section__about_text {
+        height: unset;
+        font-size: 14px;
+    }
+    .header__nav_img {
+        width: 168px;
+    }
+    .footer__nav_logo {
+        object-fit: unset;
+        width: 168px;
+    }
+}
+/* @media (max-width: 412px) {} */
+@media (max-width: 375px) {
+
+    .header__content_title {
+        font-size: 38px;
+    }
+    .header__content_subject{
+        font-size: 30px;
+    }
+    .header__content_btns_btn {
+        width: 134px;
+    }
+    .header__content_btns_price {
+        font-size: 40px;
+        width: 165px;
+        height: 60px;
+    }
+    .footer__title {
+        font-size: 26px;
+    }
+    .footer_nav_tel {
+        font-weight: 400;
+    }
+    .footer__nav_link {
+        font-size: 15px;
+    }
+    .footer__line_txt {
+        font-size: 13px;
+    }
+    .section__about_image {
+        height: 290px;
+    }
+}
+@media (max-width: 360px) {
+    .section__nav_list_item_link {
+        padding: 18px 15px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .nav__menu {
+        width: 38px;
+        height: 41px;
+    }
+    .header__nav_img {
+        width: 156px;
+    }
+    .footer__nav_logo {
+        width: 156px;
+    }
+    .footer_nav_tel {
+        font-size: 11px;
+    }
+    .map {
+        height: 300px;
+    }
+    .section__nav_list_item_link {
+        padding: 18px 8px;
+    }
+    .section__nav {
+        top: 53px;
+    }
+}
